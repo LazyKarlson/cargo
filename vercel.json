@@ -15,7 +15,7 @@
   "env": {
     "APP_ENV": "production",
     "APP_DEBUG": "true",
-    "APP_URL": "https://your.url.from.vercel.app",
+    "APP_URL": "https://cargo-plum.vercel.app/",
     "APP_KEY": "base64:haS9DfX4+sONtSKO5hYkswAnftQtXtDgo68kCwbvT2A=",
     "APP_CONFIG_CACHE": "/tmp/config.php",
     "APP_EVENTS_CACHE": "/tmp/events.php",
