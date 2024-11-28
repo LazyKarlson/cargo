@@ -19,7 +19,7 @@
     ]
   },
   {
-    "type_of_transportation": "truck",
+    "type_of_transportation": "road",
     "variants": [
       {
         "name": "Eurotruck 82 m3",

@@ -6,12 +6,12 @@
       "width": 120,
       "height": 150,
       "length": 200,
-      "number": 10,
+      "quantity": 10,
       "stacking_parameters": {
-        "stacking": true,
+        "not_stacking": true,
         "lower_tier": true,
         "upper_tier": false,
-        "among_themselves": true
+        "among_themselves": false
       }
     },
     {
@@ -19,11 +19,11 @@
       "width": 100,
       "height": 130,
       "length": 180,
-      "number": 10,
+      "quantity": 10,
       "stacking_parameters": {
-        "stacking": false,
-        "lower_tier": false,
-        "upper_tier": true,
+        "not_stacking": false,
+        "lower_tier": true,
+        "upper_tier": false,
         "among_themselves": false
       }
     },
@@ -32,10 +32,10 @@
       "width": 140,
       "height": 160,
       "length": 220,
-      "number": 10,
+      "quantity": 10,
       "stacking_parameters": {
-        "stacking": true,
-        "lower_tier": true,
+        "not_stacking": false,
+        "lower_tier": false,
         "upper_tier": true,
         "among_themselves": true
       }
