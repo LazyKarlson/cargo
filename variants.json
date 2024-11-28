@@ -1,0 +1,47 @@
+[
+  {
+    "type_of_transportation": "sea",
+    "variants": [
+      {
+        "name": "20DC",
+        "length": 590.5,
+        "width": 235,
+        "height": 238.1,
+        "maxload": 21770
+      },
+      {
+        "name": "40DC",
+        "length": 1204.5,
+        "width": 235,
+        "height": 238.1,
+        "maxload": 26700
+      }
+    ]
+  },
+  {
+    "type_of_transportation": "truck",
+    "variants": [
+      {
+        "name": "Eurotruck 82 m3",
+        "length": 1360,
+        "width": 245,
+        "height": 245,
+        "maxload": 24000
+      },
+      {
+        "name": "Eurotruck 90 m3",
+        "length": 1360,
+        "width": 245,
+        "height": 270,
+        "maxload": 24000
+      },
+      {
+        "name": "Eurotruck 100 m3",
+        "length": 1360,
+        "width": 245,
+        "height": 300,
+        "maxload": 24000
+      }
+    ]
+  }
+]
