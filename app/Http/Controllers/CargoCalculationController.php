@@ -114,20 +114,11 @@ class CargoCalculationController extends Controller
                     }
                 }
             }
-                $volumeFit = $cargoVolume <= $containerVolume;
-                $weightFit = $cargoWeight <= $containerMaxLoad;
 
-                if ($volumeFit && $weightFit) {
-                    if (!isset($neededContainers[$containerType])) {
-                        $neededContainers[$containerType] = 0;
-                    }
-                    $neededContainers[$containerType]++;
-                    break;
-                }
-           /* if ($containerCount > 0) {
+            if ($containerCount > 0) {
                 $neededContainers[$containerType] = $containerCount;
                 break;
-            }*/
+            }
         }
 
         $response = "You'll need ";
